@@ -1,3 +1,1 @@
-var teste = document.getElementsByTagName("img");
-
-console.log(teste);
+document.write("teste");
