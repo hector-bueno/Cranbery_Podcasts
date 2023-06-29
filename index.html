@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
     <script src="script.js"></script>
     <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
-    <title>TesteTestoso</title>
+    <title>Cranbery PodCasts</title>
 </head>
-<body>
-    <nav>abc</nav>
-    <main>123</main>
-    <footer>666</footer>
+<body onload="inicio()">
+    <header>
+        <figure>
+            <a href="#">
+                <img src="imgs/cranbery_logo_clear.png" alt="" id="logo">
+            </a>
+        </figure>
+        <nav id="menu-principal">
+            <div id="menu">
+                <a href="#">Weekly</a>
+                <a href="#">Highlighted</a>
+                <a href="#">Latest</a>
+                <a href="#">Platforms</a>
+                <a href="#">Topcasters</a>
+            </div>
+            <div id="login">
+                <!-- <input type="checkbox" name="DarkMode" role="switch" id=""> -->
+                <button id="dark-mode" onclick="trocaDarkMode()"><div id="dark-mode-off"></div><div id="texto-dark-mode">Dark Mode </div></button>
+                <a href="">Login</a>
+                <a href="">Join us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article id="">
+            <div id="titulo-principal">
+                <h1>
+                    A quick and easy <lord-icon id="icone-titulo"></lord-icon>way to listen most favorite <u>podcasts</u>
+                </h1>
+                <p>
+                    Explore latest top-notch stories from world wide community and verified tec creators
+                </p>
+                <button id="button-free-trial">Start Free Trial</button>
+            </div>
+            <figure>
+                <img src="imgs/mic.png" alt="" id="microfone">
+            </figure>
+        </article>
+
+        <article id="carrosel">
+            <h2>Weekly popular</h2>
+
+        </article>
+
+        <img src="imgs/pessoas_com_fone.png" alt="">
+    </main>
+    <footer><a href="https://lordicon.com/" target="_blank">Icons by Lordicon.com</a></footer>
 </body>
 </html>
