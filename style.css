@@ -10,7 +10,7 @@ a {
 }
 
 /* Header e NavBar */
-header, header nav, article, #dark-mode, #login {
+header, header nav, #titulo-principal-container, #dark-mode, #login {
     display: flex;
 }
 
@@ -62,8 +62,20 @@ header {
 
 /* Conteúdo Principal */
 #microfone, #titulo-principal {
-    width: 400px;
     margin: 15px;
+    padding: 0px 40px;
+}
+
+#microfone {
+    width: 40%;
+}
+
+#titulo-principal {
+    width: 60%;
+}
+
+#imgmicrofone {
+    width: 100%;
 }
 
 h1 {
@@ -97,4 +109,36 @@ u {
     width: 110px;
     border: none;
     border-radius: 5px;
+}
+
+/* Weekly */
+
+#weekly {
+    display: flex;
+    flex-direction: column;
+}
+
+#carrossel-item-1, #carrossel-item-2, #carrossel-item-3 {
+    display: flex;
+    align-items: center;
+}
+
+#carrossel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icone-carrossel {
+    width: 75px;
+    height: 75px;
+    background-color: rgba(247, 6, 6, 0.852);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-fone{
+    /* background-color: blue; */
 }
