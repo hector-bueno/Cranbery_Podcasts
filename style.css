@@ -66,7 +66,6 @@ header {
 /* Conteúdo Principal */
 main {
     padding-top: 50px;
-
 }
 
 #microfone, #titulo-principal {
@@ -130,18 +129,26 @@ u {
     flex-direction: column;
 }
 
-#carrossel-item-1, #carrossel-item-2, #carrossel-item-3 {
-    display: flex;
-    align-items: center;
+h2 {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin: 10px;
 }
 
 #carrossel {
     display: flex;
     justify-content: space-evenly;
+    margin: 10px;
+}
+
+#carrossel-item-1, #carrossel-item-2, #carrossel-item-3 {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .icone-carrossel {
-    /* background-color: red; */
     width: 75px;
     height: 75px;
     border-radius: 5px;
@@ -150,6 +157,32 @@ u {
     justify-content: center;
     align-items: center;
 }
+
+.carrossel-titulos {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.carrossel-caster {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icone-play {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(90deg);
+}
+
+.carrossel-tempo {
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+
 
 #lista li{
     align-self: center;

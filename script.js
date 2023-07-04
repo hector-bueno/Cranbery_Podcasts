@@ -25,13 +25,20 @@ function inicio() {
 
     // pegar todos os itens com o ID/CLASS icone-fone
     var iconeCarrossel = document.getElementsByClassName('icone-fone');
-
     for (let i = 0; i < iconeCarrossel.length; i++) {
         iconeCarrossel[i].setAttribute('src', 'https://cdn.lordicon.com/xddtsyvc.json');
         iconeCarrossel[i].setAttribute('trigger', 'loop-on-hover');
         iconeCarrossel[i].setAttribute('colors','primary:#000000');
         iconeCarrossel[i].setAttribute('style', 'width:50px;height:50px');
         iconeCarrossel[i].setAttribute('delay', '500');
+    }
+
+    var iconePlay = document.getElementsByClassName('icone-play');
+    for (let i = 0; i < iconePlay.length; i++) {
+        iconePlay[i].setAttribute('src', 'https://cdn.lordicon.com/xdakhdsq.json');
+        iconePlay[i].setAttribute('trigger', 'hover');
+        iconePlay[i].setAttribute('colors', 'primary:#121331');
+        iconePlay[i].setAttribute('style', 'width:30px;height:30px');
     }
 
 }
@@ -58,5 +65,4 @@ function trocaDarkMode () {
     } else {
         textoDarkMode.innerHTML = 'Dark Mode ';
     }
-    // inserir aqui as alterações entre os modos light e dark
 }
