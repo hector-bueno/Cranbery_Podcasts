@@ -19,7 +19,7 @@ function inicio() {
         iconeLista[i].setAttribute('src', 'https://cdn.lordicon.com/ibremrum.json');
         iconeLista[i].setAttribute('trigger', 'none');
         iconeLista[i].setAttribute('colors', 'outline:#ffffff,primary:#30c9e8,secondary:#2516c7');
-        iconeLista[i].setAttribute('style', 'width:30px;height:30px');
+        iconeLista[i].setAttribute('style', 'width:60px;height:60px');
         
     }
 
