@@ -17,7 +17,7 @@ function inicio() {
 
     for (let i = 0; i < iconeLista.length; i++) {
         iconeLista[i].setAttribute('src', 'https://cdn.lordicon.com/ibremrum.json');
-        iconeLista[i].setAttribute('trigger', 'none');
+        iconeLista[i].setAttribute('trigger', 'loop');
         iconeLista[i].setAttribute('colors', 'outline:#ffffff,primary:#30c9e8,secondary:#2516c7');
         iconeLista[i].setAttribute('style', 'width:60px;height:60px');
         
@@ -34,6 +34,7 @@ function inicio() {
     }
 
     var iconePlay = document.getElementsByClassName('icone-play');
+    console.log(iconePlay);
     for (let i = 0; i < iconePlay.length; i++) {
         iconePlay[i].setAttribute('src', 'https://cdn.lordicon.com/xdakhdsq.json');
         iconePlay[i].setAttribute('trigger', 'hover');

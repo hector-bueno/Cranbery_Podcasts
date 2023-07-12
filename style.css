@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 1.3em;
+}
+
 /* Header e NavBar */
 header, header nav, #titulo-principal-container, #dark-mode, #login {
     display: flex;
@@ -131,8 +135,8 @@ u {
 }
 
 h2 {
-    font-size: 1.3em;
-    font-weight: 800;
+    font-size: 1.7em;
+    font-weight: 600;
     margin: 10px;
 }
 
@@ -196,7 +200,6 @@ h2 {
 }
 
 #diferenciais aside h2{
-    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
@@ -224,5 +227,90 @@ h2 {
 #lista li{
     height: 50px;
     font-size: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+#highlighted {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 250px;
+    width: 700px;
+    color: white;
+    padding: 25px;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#highlighted section {
+    width: 200px;
+}
+
+#hl-img-container {
+    width: 150px;
+}
+
+#hl-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#highlighted aside {
+    width: 400px;
+}
+
+#highlighted aside * {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+/* Latest */
+
+#latest {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 25px 0px;
+}
+
+.latest-buttons {
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 5px;
+    color: blue;
+    font-weight: 600;
+}
+
+#latest p, #latest section{
+    /* margin: 25px 0px 0px 0px; */
+    margin: 0px 0px 0px 0px;
+}
+
+#latest p{
+    align-self: flex-end;
+}
+
+#latest-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lt-items {
+    display: flex;
+    align-items: center;;
+    width: 40%;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.latest-imgs {
+    width: 130px;
+    border-radius: 10px;
+    padding: 15px;
 }
