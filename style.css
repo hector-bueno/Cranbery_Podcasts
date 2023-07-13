@@ -135,9 +135,10 @@ u {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 600;
-    margin: 10px;
+    margin: 10px 0px;
+    line-height: 1.3em;
 }
 
 #carrossel {
@@ -146,7 +147,7 @@ h2 {
     margin: 10px;
 }
 
-#carrossel-item-1, #carrossel-item-2, #carrossel-item-3 {
+.carrossel-itens {
     width: 275px;
     display: flex;
     align-items: center;
@@ -204,7 +205,6 @@ h2 {
 }
 
 #diferenciais aside p{
-    margin-left: 10px;
     font-size: 1em;
 }
 
@@ -221,12 +221,13 @@ h2 {
 .icone-lista {
     position: relative;
     top: 25px;
-    margin-right: 5px;
+    right: 10px;
+    margin-right: 0px;
 }
 
 #lista li{
-    height: 50px;
-    font-size: 1em;
+    height: 40px;
+    font-size: 1.2em;
     margin-bottom: 3px;
 }
 
@@ -283,12 +284,11 @@ h2 {
     font-weight: 600;
 }
 
-#latest p, #latest section{
-    /* margin: 25px 0px 0px 0px; */
-    margin: 0px 0px 0px 0px;
+#latest p, #latest section {
+    margin: 15px 0px 0px 0px;
 }
 
-#latest p{
+#latest p {
     align-self: flex-end;
 }
 
@@ -302,15 +302,36 @@ h2 {
     display: flex;
     align-items: center;;
     width: 40%;
-    height: 250px;
+    height: 170px;
     border: 3px solid black;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    position: relative;
 }
 
 .latest-imgs {
     width: 130px;
     border-radius: 10px;
     padding: 15px;
+}
+
+#latest-group h4 {
+    color: blue;
+}
+
+.lt-items .icone-play {
+    margin: 0px 15px 15px 0px;
+}
+
+.lt-tempos {
+    width: 70px;
+    height: 20px;
+    border-radius: 13px;
+    font-size: 1.1em;
+    color: rgb(17, 17, 103);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 6px;
+    background-color: rgb(150, 150, 237);
 }

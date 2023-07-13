@@ -39,7 +39,7 @@ function inicio() {
         iconePlay[i].setAttribute('src', 'https://cdn.lordicon.com/xdakhdsq.json');
         iconePlay[i].setAttribute('trigger', 'hover');
         iconePlay[i].setAttribute('colors', 'primary:#121331');
-        iconePlay[i].setAttribute('style', 'width:30px;height:30px');
+        iconePlay[i].setAttribute('style', 'width:50px;height:50px');
     }
 
 }
