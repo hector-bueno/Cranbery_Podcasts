@@ -332,6 +332,52 @@ h2 {
     color: rgb(17, 17, 103);
     font-weight: bolder;
     text-align: center;
+    vertical-align: middle;
     padding-top: 6px;
     background-color: rgb(150, 150, 237);
+}
+
+/* Platforms */
+
+#platforms {
+    display: flex;
+    /* width: 80%; */
+}
+
+#platforms h2 {
+    font-size: 3em;
+    line-height: 1.3em;
+    margin: 30px 0px;
+}
+
+#platforms-features {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    width: 80%;
+    height: 180px;
+}
+
+.icone-trend, .icone-support {
+    margin-right: 10px;
+}
+
+#platforms-features div {
+    align-items: center;
+}
+
+#platforms-features aside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#platforms img {
+    width: 85px;
+    margin: 30px;
 }

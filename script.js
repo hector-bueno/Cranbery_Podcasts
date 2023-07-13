@@ -34,12 +34,27 @@ function inicio() {
     }
 
     var iconePlay = document.getElementsByClassName('icone-play');
-    console.log(iconePlay);
     for (let i = 0; i < iconePlay.length; i++) {
         iconePlay[i].setAttribute('src', 'https://cdn.lordicon.com/xdakhdsq.json');
         iconePlay[i].setAttribute('trigger', 'hover');
         iconePlay[i].setAttribute('colors', 'primary:#121331');
         iconePlay[i].setAttribute('style', 'width:50px;height:50px');
+    }
+
+    var iconeTrend = document.getElementsByClassName('icone-trend');
+    for (let i = 0; i < iconeTrend.length; i++) {
+        iconeTrend[i].setAttribute('src', 'https://cdn.lordicon.com/hbvyhtse.json');
+        iconeTrend[i].setAttribute('trigger', 'hover');
+        iconeTrend[i].setAttribute('colors', 'primary:#FFFFFF');
+        iconeTrend[i].setAttribute('style', 'width:40px;height:40px');
+    }
+
+    var iconeSupport = document.getElementsByClassName('icone-support');
+    for (let i = 0; i < iconeSupport.length; i++) {
+        iconeSupport[i].setAttribute('src', 'https://cdn.lordicon.com/tftaqjwp.json');
+        iconeSupport[i].setAttribute('trigger', 'hover');
+        iconeSupport[i].setAttribute('colors', 'primary:#FFFFFF');
+        iconeSupport[i].setAttribute('style', 'width:40px;height:40px');
     }
 
 }
