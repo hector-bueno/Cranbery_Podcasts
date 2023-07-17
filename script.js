@@ -7,10 +7,10 @@ function inicio() {
     iconeTitulo.setAttribute('style', 'width:1.5em;height:1.5em');
 
     // inserção de cor aleatória ao fundo do ícone
-    var fundoIconeCarrossel = document.getElementsByClassName('icone-carrossel');
+    var fundoColorido = document.getElementsByClassName('fundo-colorido');
 
-    for (let i = 0; i < fundoIconeCarrossel.length; i++) {
-        fundoIconeCarrossel[i].style.backgroundColor = generateColor();
+    for (let i = 0; i < fundoColorido.length; i++) {
+        fundoColorido[i].style.backgroundColor = generateColor();
     }
 
     var iconeLista = document.getElementsByClassName('icone-lista');
@@ -46,7 +46,7 @@ function inicio() {
         iconeTrend[i].setAttribute('src', 'https://cdn.lordicon.com/hbvyhtse.json');
         iconeTrend[i].setAttribute('trigger', 'hover');
         iconeTrend[i].setAttribute('colors', 'primary:#FFFFFF');
-        iconeTrend[i].setAttribute('style', 'width:40px;height:40px');
+        iconeTrend[i].setAttribute('style', 'width:30px;height:30px');
     }
 
     var iconeSupport = document.getElementsByClassName('icone-support');
@@ -54,7 +54,7 @@ function inicio() {
         iconeSupport[i].setAttribute('src', 'https://cdn.lordicon.com/tftaqjwp.json');
         iconeSupport[i].setAttribute('trigger', 'hover');
         iconeSupport[i].setAttribute('colors', 'primary:#FFFFFF');
-        iconeSupport[i].setAttribute('style', 'width:40px;height:40px');
+        iconeSupport[i].setAttribute('style', 'width:20px;height:20px');
     }
 
 }

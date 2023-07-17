@@ -341,13 +341,27 @@ h2 {
 
 #platforms {
     display: flex;
-    /* width: 80%; */
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+#platforms-header, #platforms-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
 }
 
 #platforms h2 {
-    font-size: 3em;
+    font-size: 2.7em;
     line-height: 1.3em;
     margin: 30px 0px;
+}
+
+#platforms img {
+    width: 85px;
+    margin: 50px;
 }
 
 #platforms-features {
@@ -355,11 +369,11 @@ h2 {
     color: white;
     border-radius: 10px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.5em;
+    font-size: 1.1em;
     width: 80%;
     height: 180px;
 }
@@ -368,16 +382,35 @@ h2 {
     margin-right: 10px;
 }
 
-#platforms-features div {
+/* Topcasters */
+
+#topcasters-group {
+    display: flex;
+}
+
+.containers-topcasters {
+    width: 20%;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-#platforms-features aside {
-    display: flex;
-    flex-wrap: wrap;
+.containers-topcasters figure {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
 }
 
-#platforms img {
-    width: 85px;
-    margin: 30px;
+.imgs-topcasters {
+    height: 90%;
+    margin: 0px auto;
+}
+
+.topcasters-dados {
+    margin: 10px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    align-self: flex-start;
 }
