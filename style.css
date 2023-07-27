@@ -137,7 +137,7 @@ u {
 h2 {
     font-size: 1.5em;
     font-weight: 600;
-    margin: 10px 0px;
+    margin: 20px 0px;
     line-height: 1.3em;
 }
 
@@ -198,10 +198,6 @@ h2 {
 #diferenciais aside{
     width: 40%;
     align-self: center;
-}
-
-#diferenciais aside h2{
-    margin-bottom: 20px;
 }
 
 #diferenciais aside p{
@@ -384,12 +380,24 @@ h2 {
 
 /* Topcasters */
 
+#topcasters {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#topcasters h2 {
+    align-self: center;
+}
+
 #topcasters-group {
     display: flex;
+    justify-content: space-between;
 }
 
 .containers-topcasters {
-    width: 20%;
+    width: 30%;
+    margin: 10px;
     border-radius: 12px;
     background-color: black;
     display: flex;
@@ -398,19 +406,120 @@ h2 {
 }
 
 .containers-topcasters figure {
-    height: 150px;
+    height: 200px;
     width: 100%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .imgs-topcasters {
-    height: 90%;
-    margin: 0px auto;
+    max-height: 90%;
+    max-width: 100%;
 }
 
 .topcasters-dados {
-    margin: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
     color: white;
     border-radius: 0px 0px 10px 10px;
     align-self: flex-start;
+}
+
+.topcasters-dados * {
+    padding: 20px 0px 10px 0px;
+}
+
+.symbol {
+    margin: 5px;
+}
+
+/* Join Us */
+
+#join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#join * {
+    margin: 10px 0px;
+}
+
+#plans-time {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#plans-time div {
+    padding: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+#plans-time div:hover {
+    color: #FFF;
+    background-color: blue;
+}
+
+#plans-types {
+    display: flex;
+}
+
+.plans-containers {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 0.75em;
+}
+
+#plan-basic {
+    background-color:rgb(150, 150, 237);
+}
+
+#plan-premium {
+    background-color:blue;
+}
+
+.btn-plans {
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+#subscribe-basic {
+    color: white;
+    background-color: blue;
+}
+
+#subscribe-premium {
+    color: black;
+    background-color: white;
+}
+
+.listasPlanos {
+    max-width:90%;
+}
+
+.listasPlanos lord-icon{
+    position: relative;
+    top: 1.3em;
+    right: 0.3em;
+    margin: 0px 10px 0px 0px; 
+}
+
+.btn-subscribe {
+    padding: 10px 30px;
+    border-radius: 8px;
+    /* max-width: 90%; */
 }

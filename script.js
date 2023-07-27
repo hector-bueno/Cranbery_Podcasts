@@ -25,6 +25,7 @@ function inicio() {
 
     // pegar todos os itens com o ID/CLASS icone-fone
     var iconeCarrossel = document.getElementsByClassName('icone-fone');
+
     for (let i = 0; i < iconeCarrossel.length; i++) {
         iconeCarrossel[i].setAttribute('src', 'https://cdn.lordicon.com/xddtsyvc.json');
         iconeCarrossel[i].setAttribute('trigger', 'loop-on-hover');
@@ -34,6 +35,7 @@ function inicio() {
     }
 
     var iconePlay = document.getElementsByClassName('icone-play');
+
     for (let i = 0; i < iconePlay.length; i++) {
         iconePlay[i].setAttribute('src', 'https://cdn.lordicon.com/xdakhdsq.json');
         iconePlay[i].setAttribute('trigger', 'hover');
@@ -42,6 +44,7 @@ function inicio() {
     }
 
     var iconeTrend = document.getElementsByClassName('icone-trend');
+
     for (let i = 0; i < iconeTrend.length; i++) {
         iconeTrend[i].setAttribute('src', 'https://cdn.lordicon.com/hbvyhtse.json');
         iconeTrend[i].setAttribute('trigger', 'hover');
@@ -50,11 +53,21 @@ function inicio() {
     }
 
     var iconeSupport = document.getElementsByClassName('icone-support');
+
     for (let i = 0; i < iconeSupport.length; i++) {
         iconeSupport[i].setAttribute('src', 'https://cdn.lordicon.com/tftaqjwp.json');
         iconeSupport[i].setAttribute('trigger', 'hover');
         iconeSupport[i].setAttribute('colors', 'primary:#FFFFFF');
         iconeSupport[i].setAttribute('style', 'width:20px;height:20px');
+    }
+
+    var iconeCheck = document.getElementsByClassName('icone-check');
+
+    for (let i = 0; i < iconeCheck.length; i++) {
+        iconeCheck[i].setAttribute('src', 'https://cdn.lordicon.com/yqzmiobz.json');
+        iconeCheck[i].setAttribute('trigger', 'hover');
+        iconeCheck[i].setAttribute('colors', 'primary:#000');
+        iconeCheck[i].setAttribute('style', 'width:20px;height:20px');
     }
 
 }

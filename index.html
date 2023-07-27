@@ -33,7 +33,7 @@
                 <!-- <input type="checkbox" name="DarkMode" role="switch" id=""> -->
                 <button id="dark-mode" onclick="trocaDarkMode()"><div id="dark-mode-off"></div><div id="texto-dark-mode">Dark Mode </div></button>
                 <a href="">Login</a>
-                <a href="">Join us</a>
+                <a href="#join">Join us</a>
             </div>
         </nav>
     </header>
@@ -232,7 +232,7 @@
             </aside>
         </article>
 
-        <article>
+        <article id="topcasters">
             <h2>Our top podcaster</h2>
             <session id="topcasters-group">
                 <div id="topcaster1-container" class="containers-topcasters">
@@ -241,15 +241,84 @@
                     </figure>
                     <div class="topcasters-dados">
                         <h3 id="nome-topcaster1" class="nome-topcasters">Bill Gates</h3>
-                        <span>Artist</span>&#x2022;<span>Genre</span>
+                        <span>Artist</span><span class="symbol">&#x2022;</span><span>Genre</span>
                         <p class="followers-texts">
                             <span id="followers-caster1">430</span>k followers
                         </p>
                     </div>
                 </div>
-
+                <div id="topcaster2-container" class="containers-topcasters">
+                    <figure class="fundo-colorido">
+                        <img src="./imgs/podcasters/podcaster_linus.png" alt="" id="img-topcaster2" class="imgs-topcasters">
+                    </figure>
+                    <div class="topcasters-dados">
+                        <h3 id="nome-topcaster2" class="nome-topcasters">Linus Torvalds</h3>
+                        <span>Artist</span><span class="symbol">&#x2022;</span><span>Genre</span>
+                        <p class="followers-texts">
+                            <span id="followers-caster2">320</span>k followers
+                        </p>
+                    </div>
+                </div>
+                <div id="topcaster3-container" class="containers-topcasters">
+                    <figure class="fundo-colorido">
+                        <img src="./imgs/podcasters/podcaster_mark.png" alt="" id="img-topcaster3" class="imgs-topcasters">
+                    </figure>
+                    <div class="topcasters-dados">
+                        <h3 id="nome-topcaster3" class="nome-topcasters">Mark Zuckerberg</h3>
+                        <span>Artist</span><span class="symbol">&#x2022;</span><span>Genre</span>
+                        <p class="followers-texts">
+                            <span id="followers-caster3">400</span>k followers
+                        </p>
+                    </div>
+                </div>
                 
             </session>
+        </article>
+
+        <article id="join">
+            <h2>We have flexible plan</h2>
+            <p>Explore latest top-notch stories from world wide area and verified tech creators</p>
+
+            <section id="plans-time">
+                <div>Montly</div>
+                <div>Yearly</div>
+            </section>
+
+            <section id="plans-types">
+                <article id="plan-basic" class="plans-containers">
+                    <div class="btn-plans">Basic Plan</div>
+                    <p>$35<span>/</span><span>yearly</span></p>
+                    <p>Explore latest top-notch stories from</p>
+                    <ul class="listasPlanos">
+                        <li><lord-icon class="icone-check"></lord-icon>Download up to 30 podcasts</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Add two devices</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Without disturbing ads</li>
+                        <li><lord-icon class="icone-check"></lord-icon>High quality audio</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Get the latest topic</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Unlimited skip audio</li>
+                    </ul>
+
+                    <div id="subscribe-basic" class="btn-subscribe">Subscribe</div>
+
+                </article>
+
+                <aside id="plan-premium" class="plans-containers">
+                    <div class="btn-plans">Premium Plan</div>
+                    <p>$35<span>/</span><span>yearly</span></p>
+                    <p>Explore latest top-notch stories from</p>
+                    <ul class="listasPlanos">
+                        <li><lord-icon class="icone-check"></lord-icon>Download up to 30 podcasts</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Add two devices</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Without disturbing ads</li>
+                        <li><lord-icon class="icone-check"></lord-icon>High quality audio</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Get the latest topic</li>
+                        <li><lord-icon class="icone-check"></lord-icon>Unlimited skip audio</li>
+                    </ul>
+
+                    <div id="subscribe-basic" class="btn-subscribe">Subscribe</div>
+
+                </a>
+            </section>
         </article>
 
     </main>
