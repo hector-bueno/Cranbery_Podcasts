@@ -66,8 +66,12 @@ function inicio() {
     for (let i = 0; i < iconeCheck.length; i++) {
         iconeCheck[i].setAttribute('src', 'https://cdn.lordicon.com/yqzmiobz.json');
         iconeCheck[i].setAttribute('trigger', 'hover');
-        iconeCheck[i].setAttribute('colors', 'primary:#000');
-        iconeCheck[i].setAttribute('style', 'width:20px;height:20px');
+        if (i < (iconeCheck.length / 2)) {
+            iconeCheck[i].setAttribute('colors', 'primary:#000');
+        } else {
+            iconeCheck[i].setAttribute('colors', 'primary:#fff');
+        }
+        iconeCheck[i].setAttribute('style', 'width:50px;height:30px');
     }
 
 }
