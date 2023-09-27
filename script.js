@@ -29,7 +29,7 @@ function inicio() {
     for (let i = 0; i < iconeCarrossel.length; i++) {
         iconeCarrossel[i].setAttribute('src', 'https://cdn.lordicon.com/xddtsyvc.json');
         iconeCarrossel[i].setAttribute('trigger', 'loop-on-hover');
-        iconeCarrossel[i].setAttribute('colors','primary:#000000');
+        iconeCarrossel[i].setAttribute('colors','primary:#000');
         iconeCarrossel[i].setAttribute('style', 'width:50px;height:50px');
         iconeCarrossel[i].setAttribute('delay', '500');
     }
